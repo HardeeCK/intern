@@ -3,7 +3,7 @@ function CoverContent(){
         <h1>Endless entertainment and knowledge</h1>
         <p>Read or listen anytime, anywhere.</p>
         <button type="button" class="btn btn-light btn-lg">Read free for 30 days</button>
-        <p className="p-below">Only $8.99/month after. Cancel anytime.</p>
+        <p className="p-below">Only ₹299/month after. Cancel anytime.</p>
     </div>
 }
 
