@@ -115,15 +115,21 @@
 .item-tag {
   display: inline-block;
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .subscription .MuiSvgIcon-root {
   color: #808080;
   font-size: 40px;
+  flex-direction: row;
+  padding: 30px;
+  padding-top: 5px;
 }
 .subscription .sub-text {
   font-size: 18px;
   font-weight: 400;
+  flex-direction: row;
+  padding: 30px;
+  padding-top: 0px;
 }
 .sub-quote .quote-img-div {
   display: inline-block;
@@ -132,12 +138,14 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 7%;
 }
 .sub-quote .quote-img {
   display: inline-block;
   height: 36px;
   width: 62px;
+  padding-bottom: 1.5%;
+  margin-right: 20px;
 }
 .sub-quote .main-para {
   font-size: 24px;
@@ -156,4 +164,86 @@
   font-weight: 400;
   display: block;
   padding-left: 55px;
+}
+.books {
+  padding: 0 300px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.catalogue {
+  background-color: #5a1d41;
+  height: 655px;
+}
+.catalogue h2 {
+  font-weight: 400;
+  color: #fafbfd;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-align: center;
+  padding: 65px;
+  margin-bottom: 0%;
+}
+.book_item {
+  display: inline-block;
+  padding: 1.5px;
+  margin-top: 0px;
+}
+.Book-button {
+  background: #1e7b85 !important;
+  color: #fff !important;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 15%;
+  height: 45px;
+  font-size: 18px !important;
+}
+.button {
+  margin-top: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.cancel-para {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.press {
+  background-color: #fff;
+  text-align: center;
+}
+.press p {
+  margin-top: 10px;
+  color: #466474;
+}
+.press-item-div {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+.footer-div {
+  margin-top: 30px;
+  padding-top: 50px;
+  background-color: #f0f2f9;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer-div h6 {
+  font-weight: 600;
+  font-style: normal;
+}
+.footer-div ul {
+  padding-left: 0;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.875rem;
+}
+.footer-div ul li {
+  list-style-type: none;
+  text-align: left;
 }

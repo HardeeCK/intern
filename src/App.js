@@ -5,6 +5,7 @@ import Cover from "./components/Cover";
 import CoverContent from "./components/CoverContent";
 import Subscription from './components/Subscription';
 import SubQuote from './components/Subquote';
+import BookCatalogue from './components/BookCatalogue';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CoverContent/>
       <Subscription/>
       <SubQuote/>
+      <BookCatalogue/>
     </Router>
   );
 }
