@@ -6,6 +6,8 @@ import CoverContent from "./components/CoverContent";
 import Subscription from './components/Subscription';
 import SubQuote from './components/Subquote';
 import BookCatalogue from './components/BookCatalogue';
+import Press from './components/Press';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Subscription/>
       <SubQuote/>
       <BookCatalogue/>
+      <Press/>
+      <Footer/>
     </Router>
   );
 }
