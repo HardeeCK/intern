@@ -93,3 +93,71 @@
   font-size: 16px;
   font-weight: 400;
 }
+.subscription h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000514;
+  margin: 0 auto 16px;
+  max-width: 792px;
+  text-align: center;
+}
+.subscription {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.icon-division {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 160px;
+}
+.item-tag {
+  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+}
+.subscription .MuiSvgIcon-root {
+  color: #1e7b85;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.subscription .sub-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.sub-quote .quote-img-div {
+  display: inline-block;
+}
+.sub-quote {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.sub-quote .quote-img {
+  display: inline-block;
+  height: 46px;
+  width: 62px;
+  margin-bottom: 70px;
+}
+.sub-quote .main-para {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+  max-width: 588px;
+  padding-bottom: 16px;
+  text-align: center;
+  z-index: 2;
+  display: inline-block;
+}
+.sub-quote .sub-para {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  padding-left: 55px;
+}
